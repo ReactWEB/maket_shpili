@@ -14,7 +14,7 @@ a{
   text-decoration: none;
   display: inline-block;
 }
-.header_inner{
+.header__inner{
   background-image: url("../images/header_bg.png");
   background-position: center;
   background-size: cover;
@@ -24,23 +24,23 @@ a{
   max-width: 1440px;
   text-align: center;
 }
-.header_inner-logo{
+.header__inner-logo{
   padding-bottom: 318px;
 }
-.header_inner-logo img{  
+.header__inner-logo img{  
   width: 100px;
   height: 23px;
 }
-.header-text_title{
+.header-text__title{
   font-family: "BebasNeue";
   font-size: 60px;
   letter-spacing: 5.70937px;
   color: #fff;
 }
-.header_inner-text{
+.header__inner-text{
   padding-bottom: 220px;
 }
-.header-text_describe{
+.header-text__describe{
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-size: 16px;
