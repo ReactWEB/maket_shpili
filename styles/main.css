@@ -1,0 +1,57 @@
+@import url("./fonts.css");
+*{
+  box-sizing: border-box;
+}
+.header{
+  margin: 0 auto;
+}
+.container{
+  max-width: 1440px;
+  padding: 0 5px;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+.header_inner{
+  background-image: url("../images/header_bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 41px;
+  padding-bottom: 71px;
+  max-width: 1440px;
+  text-align: center;
+}
+.header_inner-logo{
+  padding-bottom: 318px;
+}
+.header_inner-logo img{  
+  width: 100px;
+  height: 23px;
+}
+.header-text_title{
+  font-family: "BebasNeue";
+  font-size: 60px;
+  letter-spacing: 5.70937px;
+  color: #fff;
+}
+.header_inner-text{
+  padding-bottom: 220px;
+}
+.header-text_describe{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #fff;
+}
+.header-inner-btn a{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  color: #fff;
+  letter-spacing: 3.7px;
+}
